@@ -1,0 +1,36 @@
+:root{
+  text-align: center;
+}
+.fotoeu {
+  width: auto;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.galinho h1 {
+  color: rgba(0, 68, 15, 0.74);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+text-align: center;
+}
+.centralizado h3{
+  color: rgba(0, 29, 68, 0.74);
+  font-size: 25px;
+   text-align: start;
+   padding-left: 100px;
+}
+
+.centralizado h6 { 
+  color: rgba(0, 29, 68, 0.74);
+  margin-top: -50;
+  border-left: 100px;
+    display: flex;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 150px; /* Espaçamento à esquerda */
+    padding-right: 150px; /* Espaçamento à direita */
+  }
+  
+  
+

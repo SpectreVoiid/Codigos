@@ -1,0 +1,68 @@
+/* rodape.css */
+
+.rodape {
+  background-color: #001C42; /* Fundo azul */
+  color: #fff; /* Letras brancas */
+  width: 100%; /* Ocupa a largura total da página */
+  padding: 20px; /* Adiciona um espaçamento interno */
+  box-sizing: border-box; /* Inclui o padding no cálculo da largura */
+  display: flex; /* Usa flexbox para alinhar os itens */
+  justify-content: space-between; /* Alinha os itens para que fiquem espaçados uniformemente */
+  align-items: center; /* Alinha os itens verticalmente */
+}
+h1{
+  color: #ffffff;
+}
+.icone {
+  height: 100%;
+  width: 15px;
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+.redes-sociais {
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+}
+
+.redes-sociais ul {
+  list-style: none;
+
+}
+
+.redes-sociais ul li {
+  margin-right: 0; /* Adiciona um espaçamento entre os ícones */
+}
+
+
+.falar h1{
+  text-align: end;
+  margin-left: 15px;
+}
+
+.falar h6 {
+  text-align: end;
+  margin-left: 10px;
+  font-size: 13px; 
+}
+
+.linha {
+  display: flex;
+  margin-right: 155px;
+  width: 2px;
+  height: 100px;
+  background-color: #ffffff;
+}
+ 
+.rodape a {
+  justify-items: end;
+  text-align: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #ffffff; /* Cor dos links */
+}
+
+.rodape a:hover {
+  color: #fd8139ec; /* Cor dos links quando hover */
+}

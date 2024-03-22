@@ -1,0 +1,54 @@
+/* Reset de estilos para o menu */
+.navbar,
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Estilos gerais para a barra de navegação */
+.navbar {
+  background-color: #21dd21;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para o logo */
+.logo {
+  display: flex; /* Transforma o logo em um flex container */
+  align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.logo img {
+  width: auto;
+  height: 70px; /* Altura fixa para o logo */
+}
+
+/* Estilos para os itens do menu */
+.menu {
+  display: flex; /* Os itens ficarão lado a lado */
+}
+
+.menu li {
+  margin-left: 20px; /* Alterado para margin-left para criar espaço entre os itens */
+}
+
+/* Estilos para os botões do menu */
+.menu button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 5px; /* Adiciona uma transição suave */
+}
+
+/* Estilos para os botões do menu quando hover */
+/* Estilos para os botões do menu quando hover */
+.menu button:hover {
+  background-color: rgba(255, 255, 255, 0.075); /* Nova cor de fundo */
+  border-radius: 5px; /* Adiciona um leve arredondamento */
+}

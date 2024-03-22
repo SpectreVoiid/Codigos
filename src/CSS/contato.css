@@ -1,0 +1,30 @@
+.contact{
+   display: flex;
+}
+
+.contact-images {
+
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 0;
+    margin: 0;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.contact-images li {
+    text-align: center;
+}
+
+.contact-images li img {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+.contact-images li p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
